@@ -206,6 +206,11 @@
             <groupId>com.azure.resourcemanager</groupId>
             <artifactId>azure-resourcemanager-datafactory</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+        </dependency>
     </dependencies>
     <build>
         <testResources>

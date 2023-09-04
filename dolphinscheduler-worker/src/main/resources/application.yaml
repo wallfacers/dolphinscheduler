@@ -18,14 +18,14 @@ spring:
   banner:
     charset: UTF-8
   jackson:
-    time-zone: UTC
+    time-zone: Asia/Shanghai
     date-format: "yyyy-MM-dd HH:mm:ss"
 
 registry:
   type: zookeeper
   zookeeper:
     namespace: dolphinscheduler
-    connect-string: localhost:2181
+    connect-string: 127.0.0.1:2181
     retry-policy:
       base-sleep-time: 60ms
       max-sleep: 300ms
